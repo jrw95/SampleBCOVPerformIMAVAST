@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "VideoStillView.h"
 
 
 static NSString * const kViewControllerIMAPublisherID = @"insertyourpidhere";

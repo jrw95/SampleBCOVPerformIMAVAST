@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-#import <BCOVPlayerSDK.h>
 #import "BCOVIMA.h"
+#import "IMAAdEvent.h"
+
+#import <BCOVPlayerSDK.h>
 
 #import "ViewController.h"
 #import "VideoStillView.h"
 
-#import "IMAAdEvent.h"
 #import "RACEXTScope.h"
 
 
