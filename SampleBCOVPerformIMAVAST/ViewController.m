@@ -106,14 +106,14 @@ static NSString * const kViewControllerIMAVASTResponseAdTag3 = @"http://pubads.g
         
     }];
 
-    [self requestAndConfigureContent];
+    [self configureContent];
 
     [[self playbackController] setAutoPlay:YES];
     [[self playbackController] setAutoAdvance:YES];
     
 }
 
-- (void)requestAndConfigureContent
+- (void)configureContent
 {
 
     // create an array of videos
