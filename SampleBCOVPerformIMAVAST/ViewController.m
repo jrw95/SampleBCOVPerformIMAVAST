@@ -107,8 +107,11 @@ static NSString * const kViewControllerIMAVASTResponseAdTag3 = @"http://pubads.g
 
     [self configureContent];
 
-    [[self playbackController] setAutoPlay:YES];
-    [[self playbackController] setAutoAdvance:YES];
+    // Set autoPlay to YES to initiate playback as soon as the PlaybackController is created.
+    // [[self playbackController] setAutoPlay:YES];
+
+    // Set autoAdvance to YES to automatically advance to the next video in your playlist.
+    // [[self playbackController] setAutoAdvance:YES];
     
 }
 
